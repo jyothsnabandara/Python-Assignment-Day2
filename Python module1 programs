@@ -1,0 +1,183 @@
+1.Python program to design simple calculator for the operators.
+
++(addition)
+
+num1=2.3
+num2=1.4
+#Add two numbers
+sum=num1+num2
+#Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1,num2,sum))
+
+output:
+The sum of 2.3 and 1.4 is 3.7
+
+-(subtraction)
+
+num1=15
+num2=4
+#Sub of two numbers
+sub=num1-num2
+#Display the sub
+print('The sub of {0} and {1} is {2}'.format(num1,num2,sub))
+
+output:
+The sub of 15 and 4 is 11
+
+*(multiplication)
+
+num1=16
+num2=9
+#mul of two numbers
+mul=num1*num2
+#Display the mul
+print('The mul of {0} and {1} is {2}'.format(num1,num2,mul))
+
+output:
+The mul of 16 and 9 is 144
+
+/(division)
+
+num1=40
+num2=20
+#div of two numbers
+div=num1/num2
+#Display the div
+print('The div of {0} and {1} is {2}'.format(num1,num2,div))
+
+output:
+The div of 40 and 20 is 2
+
+%(modulus)
+
+num1=100
+num2=5
+#mod of two numbers
+mod=num1%num2
+#Display the mod
+print('The mod of {0} and {1} is {2}'.format(num1,num2,mod))
+
+output:
+The mod of 100 and 5 is 0
+
+**(exponent)
+
+num1=2
+num2=5
+#expo of two numbers
+expo=num1**num2
+#Display the expo 
+print('The expo of {0} and {1} is {2}'.format(num1,num2,expo))
+
+output:
+The expo of 2 and 5 is 32
+
+//(floor division)
+
+num1=7
+num2=3
+#floor div of two numbers
+floor div=num1//num2
+#Display the floor div
+print('The floor div of {0} and {1} is {2}'.format(num1,num2,floor div))
+
+output:
+The floor div of 7 and 3 is 2
+
+2.Python program to calculate simple interest
+
+P=float(input('Enter the principle amount:'))
+N=float(input('Enter the number of years:'))
+R=float(input('Enter the rate of interest:'))
+SI=(P*N*R)/100
+print('simple interest: {}'.format(SI))
+
+output:
+Enter the principle amount:100
+Enter the number of years:4
+Enter the rate of interest:5
+simple interest:20
+
+3.Python program to calculate area of a circle
+
+PI=3.14
+r=float(input('Enter the radius of circle:'))
+area=PI*r*r
+print('The area of a circle is: %0.2f'%area)
+
+output:
+The area of a circle is:78.50
+
+
+4.Python program to calculate area of triangle
+
+a=5
+b=6
+c=7
+s=(a+b+c)/2
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+print('The area of triangle is %0.2f'%area)
+
+output:The area of triangle is 14.70
+
+
+5.Python program to calculate temperature in Celsius to Farenheit
+
+celsius=37.5
+farenheit=(celsius*1.8)+32
+print('%0.1f degree celsius is equal to %0.1f degree farenheit'%(celsius,farenheit))
+
+output:37.5 degree celsius is equal to 99.5 degree farenheit
+
+6.Python program to calculate area of rectangle
+
+l=float(input('Enter the length of rectangle:'))
+b=float(input('Enter the breadth of rectangle:'))
+area=l*b
+print('The area of rectangle is %0.2f', %area)
+
+output: Enter the length of rectangle:5
+	Enter the breadth of rectangle:5
+	The area of rectangle is 25
+
+7.Pyhton program to calculate perimeter of a square
+
+s=int(input('side:'))
+perimeter=4*s
+print('Perimeter of square:',perimeter)
+
+output:
+side=5
+Perimeter of square:20
+
+8.Python program to calculate circumference of a circle
+
+PI=3.14
+r=float(input('Enter the radius of a circle:'))
+circumference=2*PI*r
+print('circumference of a circle is',circumference)
+
+output:
+Enter radius of a circle:3
+circumference of a circle is 18.84
+
+9.Python program to swap two numbers
+
+x=input('Enter value of x:')
+y=input('Enter value of y:')
+temp=x
+x=y
+y=temp
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
+
+output: Enter value of x:30
+	Enter value of y:58
+	The value of x after swapping:58
+	The value of y after swapping:30
+
+	
+
+
+
+
